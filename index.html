@@ -6,14 +6,76 @@
 	<link rel="stylesheet" type="text/css" href="./estilo.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 	<meta charset="UTF-8">
+	<link rel="icon" href="./img/logo.png" type="image/x-icon">
 </head>
 <body>
 	<header>
-		<div class="container-flex header" style="background: ;">
-			<div class="row justify-content-center" style="background: ;">
+		<div class="pos-f-t">
+  <div class="collapse" id="navbarToggleExternalContent">
+    <div class="bg-dark p-4">
+      <h4 class="text-white">Collapsed content</h4>
+      <span class="text-muted">Toggleable via the navbar brand.</span>
+    </div>
+  </div>
+  <nav class="navbar navbar-dark bg-dark">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </nav>
+</div>
+		<nav class="navbar navbar-expand-xl">
+			<div class="container-fluid">
 				<div class="col-md-auto"><a href="#"><img src="img/logo.png" class="logo"><h1 class="linksindiseno tituloheader">Héctor académico</h1></a></div>
-				<div class="col-md-1"></div>
-				<div class="col-md-auto" style="background: ;">
+
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			    	<span class="navbar-toggler-icon"></span>
+			  	</button>
+
+			  	<div class="collapse navbar-collapse" id="menu">
+			  		<ul class="navbar-nav nav nav-pills margenpequeno me-auto">
+					  <li class="nav-item">
+					    <a class="nav-link active" href="index.html">Inicio</a>
+					  </li>
+					  <li class="nav-item">
+					    <a class="nav-link letranegra" href="materias.html">Materias</a>
+					  </li>
+					  <li class="nav-item dropdown">
+					    <a class="nav-link  letranegra dropdown-toggle" data-bs-toggle="dropdown" href="material-educativo.html" role="button" aria-expanded="false">Material educativo</a>
+					    <ul class="dropdown-menu">
+					      <li><a class="dropdown-item" href="sor.html">SOR</a></li>
+					      <li><a class="dropdown-item" href="tics.html">TICS</a></li>
+					    </ul>
+					  </li>
+					  <li class="nav-item">
+					    <a class="nav-link letranegra " href="publicaciones.html">Publicaciones</a>
+					  </li>
+					  <li class="nav-item">
+					    <a class="nav-link letranegra " href="proyectos.html">Proyectos</a>
+					  </li>
+					  <li class="nav-item">
+					    <a class="nav-link letranegra " href="congresos.html">Congresos</a>
+					  </li>
+					  <li class="nav-item">
+					    <a class="nav-link letranegra " href="agrupaciones.html">Agrupaciones</a>
+					  </li>
+					  <li class="nav-item">
+					    <a class="nav-link letranegra " href="recursos-humanos.html">Recursos humanos</a>
+					  </li>
+					</ul>
+			  	</div>
+			</div>
+		</nav>
+
+
+		<nav class="navbar navbar-expand-xl">
+		<div class="container-fluid header">
+			<div class="row justify-content-center" s>
+				<div class="col-md-auto"><a href="#"><img src="img/logo.png" class="logo"><h1 class="linksindiseno tituloheader">Héctor académico</h1></a></div>
+				
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu2" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			    	<span class="navbar-toggler-icon"></span>
+			  	</button>
+				<div class=" collapse navbar-collapse" id="menu2">
 					<ul class="nav nav-pills margenpequeno">
 					  <li class="nav-item">
 					    <a class="nav-link active" href="index.html">Inicio</a>
@@ -46,8 +108,49 @@
 					</ul>
 				</div>
 			</div>
-    </div>
-		
+    	</div>
+    	</nav>
+
+
+
+    	<div class="container-flex header" style="background: ;">
+			<div class="row justify-content-center" style="background: ;">
+				<div class="col-md-auto"><a href="#"><img src="img/logo.png" class="logo"><h1 class="linksindiseno tituloheader">Héctor académico</h1></a></div>
+				<div class="col-md-1"></div>
+				<div class="col-md-auto " style="background: ;">
+					<ul class="nav nav-pills margenpequeno">
+					  <li class="nav-item">
+					    <a class="nav-link active" href="index.html">Inicio</a>
+					  </li>
+					  <li class="nav-item">
+					    <a class="nav-link letranegra" href="materias.html">Materias</a>
+					  </li>
+					  <li class="nav-item dropdown">
+					    <a class="nav-link  letranegra dropdown-toggle" data-bs-toggle="dropdown" href="material-educativo.html" role="button" aria-expanded="false">Material educativo</a>
+					    <ul class="dropdown-menu">
+					      <li><a class="dropdown-item" href="sor.html">SOR</a></li>
+					      <li><a class="dropdown-item" href="tics.html">TICS</a></li>
+					    </ul>
+					  </li>
+					  <li class="nav-item">
+					    <a class="nav-link letranegra " href="publicaciones.html">Publicaciones</a>
+					  </li>
+					  <li class="nav-item">
+					    <a class="nav-link letranegra " href="proyectos.html">Proyectos</a>
+					  </li>
+					  <li class="nav-item">
+					    <a class="nav-link letranegra " href="congresos.html">Congresos</a>
+					  </li>
+					  <li class="nav-item">
+					    <a class="nav-link letranegra " href="agrupaciones.html">Agrupaciones</a>
+					  </li>
+					  <li class="nav-item">
+					    <a class="nav-link letranegra " href="recursos-humanos.html">Recursos humanos</a>
+					  </li>
+					</ul>
+				</div>
+			</div>
+    	</div>
 	</header>
 
 	<div class="container-flex fondo">
