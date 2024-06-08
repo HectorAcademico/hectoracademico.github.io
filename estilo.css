@@ -111,7 +111,7 @@ nav button{
 .espacio{
 	height:30vh;
 }
-@media screen and (max-width: 1000px){
+@media screen and (min-width: 700px; max-width: 1000px){
 	.espacio{
 		height: 10vh;
 	}
@@ -121,7 +121,7 @@ nav button{
 }
 @media screen and (max-width: 700px){
 	.espacio{
-		height: 7vh;
+		height: 5vh;
 	}
 	.fondo{
 		background-attachment: scroll;
