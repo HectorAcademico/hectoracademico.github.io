@@ -26,7 +26,11 @@ body{
 .margen{
 	padding: 3em 6em 3em 6em;
 }
-
+@media screen and (max-width: 600px){
+	.margen{
+		padding: 1.5em 6em 1.5em 6em;
+	}
+}
 
 /*Eliminar scrollbar*/
 ::-webkit-scrollbar {
