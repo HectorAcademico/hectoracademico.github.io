@@ -95,7 +95,35 @@ nav button{
 	align-items: center;
 
 }
-
+.separadorpie{
+	border-left: 3px solid #666;
+}
+@media screen and (max-width: 765px){
+	.separadorpie{
+		border-left: 0px solid #666;
+		border-top: 3px solid #666;
+	}
+	.rss{
+		width: 40px;
+		height: 40px;
+		border-radius: 20px;
+		background-color: #fff;
+		display: inline-block;
+		margin: 1em .5em 1em .5em;
+	}
+	.rssmargen{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.listasindiseno{
+		text-align: center;
+		padding: 1em .5em 0 0;
+	}
+	.logopie{
+		margin: 1em 0;
+	}
+}
 
 /*Index*/
 /*Banner*/
@@ -142,30 +170,16 @@ nav button{
 
 
 
-
-
-
-
-
-
-
-
-
+/*???? Navbar pero no necesario*/
 .dropdown:hover>.dropdown-menu {
   display: block;
 }
-
 .dropdown>.dropdown-toggle:active {
   /*Without this, clicking will make it sticky*/
     pointer-events: none;
 }
-::-webkit-scrollbar {
-    display: none;
-}
 
-.separadorpie{
-	border-left: 3px solid #fff;
-}
+
 
 
 
@@ -191,9 +205,7 @@ nav button{
 	padding: 0 1em 0 1em;
 }
 
-@media screen and (max-width: 1000px){
-	
-}
+
 
 
 /*Descartable*/
