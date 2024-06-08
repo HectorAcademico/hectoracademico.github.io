@@ -113,13 +113,20 @@ nav button{
 }
 @media screen and ( max-width: 1000px){
 	.espacio{
+		height: 10vh;
+	}
+	.fondo{
+		background-attachment: scroll;
+	}
+}
+@media screen and ( max-width: 650px){
+	.espacio{
 		height: 7vh;
 	}
 	.fondo{
 		background-attachment: scroll;
 	}
 }
-
 /*Contenido index*/
 .fix{
 	border-image-repeat: none;
