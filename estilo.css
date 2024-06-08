@@ -30,7 +30,7 @@ body{
 	.margen{
 		padding: 3em 4em 3em 4em;
 	}
-
+}
 
 /*Eliminar scrollbar*/
 ::-webkit-scrollbar {
