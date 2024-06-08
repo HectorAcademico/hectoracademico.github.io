@@ -23,16 +23,14 @@ body{
 .fondogris{
 	background-color: #E7E7E7;
 }
-@media screen and (min-width: 800px){
-	.margen{
-		padding: 3em 6em 3em 6em;
-	}
+.margen{
+	padding: 3em 6em 3em 6em;
 }
-@media screen and (max-width: 800px){
+@media screen and (max-width: 650px){
 	.margen{
-		padding: 1.5em 6em 1.5em 6em;
+		padding: 3em 4em 3em 4em;
 	}
-}
+
 
 /*Eliminar scrollbar*/
 ::-webkit-scrollbar {
