@@ -23,10 +23,12 @@ body{
 .fondogris{
 	background-color: #E7E7E7;
 }
-.margen{
-	padding: 3em 6em 3em 6em;
+@media screen and (min-width: 800px){
+	.margen{
+		padding: 3em 6em 3em 6em;
+	}
 }
-@media screen and (max-width: 600px){
+@media screen and (max-width: 800px){
 	.margen{
 		padding: 1.5em 6em 1.5em 6em;
 	}
