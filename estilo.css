@@ -42,6 +42,11 @@ body{
 nav a{
 	margin: 0 .5em 0 .5em;
 }
+@media screen and (max-width: 1250px){
+	nav a{
+		margin: 0 .3em 0 .3em;
+	}
+}
 nav{
 	margin: 0 1em 0 1em;
 }
@@ -68,7 +73,9 @@ nav button{
 .letranegra:hover {
 	color: #999;
 }
-
+.desplegable{
+	padding-right: 1em;
+}
 
 /*Footer*/
 .fondopie{
@@ -98,7 +105,7 @@ nav button{
 .separadorpie{
 	border-left: 3px solid #666;
 }
-@media screen and (max-width: 765px){
+@media screen and (max-width: 767px){
 	.separadorpie{
 		border-left: 0px solid #666;
 		border-top: 3px solid #666;
@@ -167,36 +174,22 @@ nav button{
 }
 
 
-
-
-
-/*???? Navbar pero no necesario*/
-.dropdown:hover>.dropdown-menu {
-  display: block;
-}
-.dropdown>.dropdown-toggle:active {
-  /*Without this, clicking will make it sticky*/
-    pointer-events: none;
-}
-
-
-
-
-
-.imagenpost{
-	width: 30%;
-	height: 10em;
-	height: auto;
-	/*background-color: #fff;*/
+/*Publicaciones*/
+/*Contenido publicaciones*/
+.marcoimagen{
 	border-radius: 30px; 
-	margin-right: 3em;
+}
+.imagenpost{
+	border-image-repeat: none;
+	width: 100%;
+	height: auto;
 }
 .sangria{
 	margin-left: .5em;
 }
 .contentimagenpost{
-	width: 110%;
-	height: 100%;
+	width: 90%;
+	height: auto;
 	border-radius: 30px; 
 }
 .textopost{
@@ -204,6 +197,22 @@ nav button{
 	border-radius: 15px;
 	padding: 0 1em 0 1em;
 }
+@media screen and (max-width: 1000px){
+	.marcoimagen{
+		width: 100%;
+	}
+	.contentimagenpost{
+		width: 100%;
+		margin: 0 0 1em 0; 
+	}
+	.marcopost{
+		width: 100%;
+	}
+	.textopost{
+		text-align: center;
+	}
+}
+
 
 
 
