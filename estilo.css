@@ -169,7 +169,7 @@ nav button{
 	}
 }
 /*Contenido index*/
-.fix{
+.fixindex{
 	border-image-repeat: none;
 	width: 100%;
 	height: auto;
@@ -305,12 +305,17 @@ nav button{
 .articulo p{
 	margin: 1em 0 2em 0;
 }
+.fix{
+	border-image-repeat: none;
+	width: 100%;
+	height: auto;
+	margin-bottom: 10px;
+}
 @media screen and (max-width: 1000px){
 	.spanpostrecomendados{
 		padding-left: 1em ;
 	}
 }
-
 @media screen and (max-width: 767px){
 	.fix{
 		width: 50%;
