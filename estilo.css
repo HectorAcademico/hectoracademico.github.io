@@ -29,13 +29,19 @@ body{
 .margenlateral{
 	padding: 0 6em;
 }
+.margenpage{
+	padding: 3em 6em;
+}
 @media screen and (max-width: 650px){
 	.margen{
 		padding: 3em 4em;
 	}
 	.margenlateral{
-	padding: 0 4em;
-}
+		padding: 0 4em;
+	}
+	.margenpage{
+		padding: 3em 2em;
+	}
 }
 
 /*Eliminar scrollbar*/
