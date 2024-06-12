@@ -272,6 +272,61 @@ nav button{
 	}
 }
 
+
+/*Agrupaciones*/
+/*Contenido agrupaciones*/
+.fondoredondo{
+	display: inline-block;
+	border-radius: 50px;
+	padding: 1em 1em;
+	background: #E7E7E7;
+	margin: 2em 0;
+}
+
+
+/*Publicación individual*/
+/*Contenido publicación individual*/
+.imagen{
+	width: 100%;
+	height: auto;
+	margin: 1em 0;
+}
+.margentop2{
+	padding: .5em 0 0 0;
+}
+.spanpostrecomendados{
+	margin: 1em 0 0 0;
+	padding-left: 3em;
+}
+.postrecomendados img{
+	margin: 2em 0 .5em 0;
+	border-radius: 20px;
+}
+.articulo p{
+	margin: 1em 0 2em 0;
+}
+@media screen and (max-width: 1000px){
+	.spanpostrecomendados{
+		padding-left: 1em ;
+	}
+}
+
+@media screen and (max-width: 767px){
+	.fix{
+		width: 50%;
+		display: block;
+	}
+	.spanpostrecomendados img{
+		padding-left: 0;
+		margin-left: 25%
+	}
+}
+
+
+
+
+
+
 /*Descartable*/
 .dropdown:hover>.dropdown-menu {
   display: block;
