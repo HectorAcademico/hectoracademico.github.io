@@ -214,7 +214,24 @@ nav button{
 }
 
 
-
+/*Materias*/
+/*Contenido materias*/
+.fondopag{
+	background-color: #fff;
+	border-radius: 30px; 
+}
+.paddingtitulo{
+	padding: .3em 3em ;
+}
+.margenmedio{
+	padding: 2em;
+}
+.sangria2{
+	margin-left: 2em;
+}
+.sangria3{
+	margin-left: 4em;
+}
 
 
 /*Descartable*/
