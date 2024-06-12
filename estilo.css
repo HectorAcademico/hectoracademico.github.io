@@ -24,12 +24,18 @@ body{
 	background-color: #E7E7E7;
 }
 .margen{
-	padding: 3em 6em 3em 6em;
+	padding: 3em 6em;
+}
+.margenlateral{
+	padding: 0 6em;
 }
 @media screen and (max-width: 650px){
 	.margen{
-		padding: 3em 4em 3em 4em;
+		padding: 3em 4em;
 	}
+	.margenlateral{
+	padding: 0 4em;
+}
 }
 
 /*Eliminar scrollbar*/
@@ -233,6 +239,38 @@ nav button{
 	margin-left: 4em;
 }
 
+/*Material*/
+/*Contenido material*/
+.paddingtitulo2{
+	padding: 1em 3em ;
+}
+.margenbottom{
+	margin: 0 0 3em 0;
+}
+.pdf{
+	width: 100%;
+	height: auto;
+}
+.margentop{
+	margin-top: 2em;
+}
+.margend{
+	margin-right: 2em;
+}
+.margeni{
+	margin-left: 2em;
+}
+@media screen and (max-width: 767px){
+	.margend{
+		margin-right: 0em;
+	}
+	.margeni{
+		margin-left: 0em;
+	}
+	.centrartexto h3{
+		text-align: center;
+	}
+}
 
 /*Descartable*/
 .dropdown:hover>.dropdown-menu {
